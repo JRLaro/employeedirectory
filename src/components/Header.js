@@ -3,11 +3,6 @@ import React from "react";
 function Header() {
     const styleObj = {
         fontSize: 40,
-        textShadow: [3, 3, 0, "#000",
-            -1, - 1, 0, "#000",  
-             1, -1, 0, "#000",
-            -1,  1, 0, "#000",
-             1,  1, 0, "#000"]
     };
     const header = {
         fontFamily: ["Satisfy", "cursive"],
