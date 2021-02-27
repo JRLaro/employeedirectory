@@ -11,7 +11,7 @@ export default function TableHeader({sortUser}) {
         <tr className="thead text-dark border-dark border-5">
          
           
-                <th> Something? </th>
+                <th> Filter By<i className="fas fa-arrow-right"></i> </th>
                 <SortingBtn text="First Name" field="fName" onClick={sortUser} />   
                 <SortingBtn text="Last Name" field="lName" onClick={sortUser} />  
                 <SortingBtn text="Phone" field="phone" onClick={sortUser} />  
