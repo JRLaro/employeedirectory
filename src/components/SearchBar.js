@@ -18,21 +18,21 @@ export default function SearchBar({ clearUsers, filterUser }) {
         />
         <div className="container text-center">
           <span
-            className="input-group-text border-5 bg-success text-white btn border-success"
+            className="input-group-text border-5 bg-success text-white btn border-success mt-3"
             id="search-addon"
             onClick={() => filterUser(userSearch)}
-          >
-            <i className="fas fa-search"></i>
+          >Search 
+            <i className="ml-2 fas fa-search"></i>
           </span>
           <span
-            className="input-group-text border-5 bg-danger text-white btn border-danger"
+            className="input-group-text border-5 bg-danger text-white btn border-danger mt-3"
             id="search-addon"
             onClick={() => {
               clearUsers()
               setUserSearch("")
             }}
-          >
-            <i className="far fa-trash-alt"></i>
+          > Clear
+            <i className="ml-2 far fa-trash-alt"></i>
           </span>
         </div>
       </div>

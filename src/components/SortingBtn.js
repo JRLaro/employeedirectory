@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SortingBtn({ text, field, onClick }) {
     return (
-        <th onClick={() => onClick(field)}>
+        <th className="text-center" onClick={() => onClick(field)}>
             {text}
         </th>
     )

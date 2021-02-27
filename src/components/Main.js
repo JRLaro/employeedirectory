@@ -25,6 +25,7 @@ function Main({ users }) {
     const filterUser = (searchBy) => {
         const usersCopy = [...users];
         const filteredList = filterUsers(usersCopy, searchBy);
+        console.log(filteredList);
         setUserList(filteredList);
       };
 
@@ -46,7 +47,7 @@ function Main({ users }) {
                 <TableHeader 
                     sortUser={sortUser}
                 />
-                    {users.map((user) => (
+                    {userList.map((user) => (
                         <Employee
                             userList={user}
                             key={user.uuid}

@@ -2,7 +2,7 @@ import React, { useState, useEffect }from "react";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import SearchBar from "./components/SearchBar";
-import {getUsers} from "./utils/API";
+import { getUsers } from "./utils/API";
 import { mapUsers } from "./utils/mapUsers";
 import { sortUser } from "./utils/sortUsers";
 import { filterUsers } from "./utils/filterUsers";
@@ -18,6 +18,9 @@ function App() {
         setUsers(mappedUserList)
     })
   }, [])
+  if (users.length === 0) {
+    return null;
+  }
   return (
     <div className="App">
       <Main users={ users } />

@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Employee({ userList }) {
-    console.log(userList);
     const imgRound = {
         borderRadius: "50%",
         border: [5, "solid","#555"]
