@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+
 
 export default function SearchBar({ clearUsers, filterUser }) {
   const [userSearch, setUserSearch] = useState("");
@@ -27,7 +28,7 @@ export default function SearchBar({ clearUsers, filterUser }) {
             className="input-group-text border-5 bg-danger text-white btn border-danger"
             id="search-addon"
             onClick={() => {
-              clearUser()
+              clearUsers()
               setUserSearch("")
             }}
           >
