@@ -39,16 +39,16 @@ function Main({ users }) {
             <Header />
             <SearchBar 
                 clearUsers={clearUsers}
-                filerUser={filterUser}
+                filterUser={filterUser}
             />
-            <br></br>
+            <br />
             <Table>
                 <TableHeader 
                     sortUser={sortUser}
                 />
                     {users.map((user) => (
                         <Employee
-                            userList={userList}
+                            userList={user}
                             key={user.uuid}
                         />
                     ))}

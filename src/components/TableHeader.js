@@ -8,15 +8,17 @@ export default function TableHeader({sortUser}) {
     }
     
     return (
-    <thead className="thead text-light border-dark border-5">
-            <tr>
+        <tr className="thead text-dark border-dark border-5">
+         
+          
                 <th> Something? </th>
                 <SortingBtn text="First Name" field="fName" onClick={sortUser} />   
                 <SortingBtn text="Last Name" field="lName" onClick={sortUser} />  
                 <SortingBtn text="Phone" field="phone" onClick={sortUser} />  
                 <SortingBtn text="Email" field="email" onClick={sortUser} />  
-       </tr>
-    </thead>
+            
+               
+    </tr>
     )
 }
 
