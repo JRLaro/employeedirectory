@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Employee Directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-## Available Scripts
+## _Description_
 
-In the project directory, you can run:
+This application assist the user by filtering through a list of employees. With the easy to use functionality, all the user has to do is enter the name of the Employee they are wanting to search for and click "Search" and VOILA, The user can also just put the beginning letter and they will still be presented with a more concise list. The application also features a (Sort by) feature - where they can simply click on either the First Name, Last Name, Phone and or Email and the Employees will be sorted alphabetically (A-Z).
 
-### `npm start`
+## _Technologies_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JRLaro&theme=tokyonight)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## _Usage_
 
-### `npm test`
+The application can be viewed from here:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> https://jrlaro.github.io/employeedirectory/
 
-### `npm run build`
+![](public/screenShot1.png)
+![](public/screenShot2.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## _Author Info_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Email: joselarojr@gmail.com
 
-### `npm run eject`
+- GitHub User: JRLaro
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=JRLaro&show_icons=true&theme=tokyonight)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## _Credits // License_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+No collaborators were harmed in the making of this application
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> MIT License
+> Copyright (©) 2020, J.Laro
 
-## Learn More
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
