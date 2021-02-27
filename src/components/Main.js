@@ -4,6 +4,12 @@ import Header from "../components/Header";
 import TableHeader from "../components/TableHeader";
 import Table from "./Table";
 import SearchBar from "./SearchBar";
+import { sortUsers } from "../utils/sortUsers";
+import { filterUsers } from "../utils/filterUsers";
+
+
+
+
 
 function Main({ users }) {
     const [userList, setUserList] = useState(users);
@@ -11,12 +17,12 @@ function Main({ users }) {
     // function that sorts the information
     const sortUser = (sortBy) => {
         const usersCopy = [...users];
-        const sortedList = sortUser(usersCopy, sortBy);
+        const sortedList = sortUsers(usersCopy, sortBy);
         setUserList(sortedList);
       };
 
     // function that filters the data
-    const filterUser = (sortBy) => {
+    const filterUser = (searchBy) => {
         const usersCopy = [...users];
         const filteredList = filterUsers(usersCopy, searchBy);
         setUserList(filteredList);
@@ -33,7 +39,7 @@ function Main({ users }) {
             <Header />
             <SearchBar 
                 clearUsers={clearUsers}
-                filerUser={filterUsers}
+                filerUser={filterUser}
             />
             <br></br>
             <Table>
@@ -42,7 +48,7 @@ function Main({ users }) {
                 />
                     {users.map((user) => (
                         <Employee
-                            user={user}
+                            userList={userList}
                             key={user.uuid}
                         />
                     ))}

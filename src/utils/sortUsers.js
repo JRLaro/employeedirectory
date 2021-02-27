@@ -1,5 +1,5 @@
 // Function that sorts any data being passed in.
-function sortUser(userList, sortBy) {
+function sortUsers(userList, sortBy) {
     return userList.sort((a, b) => {
      
       // sorts numbers and letters
@@ -16,4 +16,4 @@ function sortUser(userList, sortBy) {
     });
 }
   
-export { sortUser }
+export { sortUsers }
